@@ -1,0 +1,40 @@
+body {
+  padding-top: 3rem;
+}
+
+.hero {
+  padding: 20vh 0;
+  background-image: url("http://www.21-graus.com/wp-content/uploads/2017/06/abre-vale2.jpg");
+  background-size: cover;
+   background-repeat: no-repeat;
+  /*background: -webkit-gradient(linear, left top, right top, from(#EECDA3), to(#EF629F));
+  background: linear-gradient(to right, #EECDA3, #EF629F);*/
+}
+
+.about {
+  padding: 10vh 0;
+  background: #222;
+  color: white;
+}
+@media (min-width: 768px) {
+  .features {
+    padding: 20vh 0;
+  }
+}
+
+.pricing {
+  padding: 10vh 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .pricing {
+    padding: 20vh 0;
+  }
+}
+
+.featured-price {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 10;
+  background: #222;
+}
